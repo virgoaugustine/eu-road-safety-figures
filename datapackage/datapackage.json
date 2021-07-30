@@ -1,0 +1,75 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+        {
+            "path": "data/facts_and_figures_table.csv",
+            "profile": "tabular-data-resource",
+            "name": "facts_and_figures_table",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "windows-1252",
+            "contributors": [{
+                "title": "Augustine Virgo Anankum",
+                "email": "virgoaugustine@gmail.com",
+                "role": "author"
+              }],
+            "schema": {
+                "fields": [
+                    {
+                        "name": "field1",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Country",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Area",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Year",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Population",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "GDP Per Capita",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Population Density",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Vehicle Ownership",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Total Road Deaths",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Road Deaths per Million Inhabitants",
+                        "type": "integer",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

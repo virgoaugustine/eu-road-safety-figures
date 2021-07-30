@@ -1,0 +1,8 @@
+datopian.ipynb
+.ipynb_checkpoints
+venv/
+venv
+.venv
+__pycache__/
+.DS_Store
+.vscode/
