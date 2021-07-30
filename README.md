@@ -1,7 +1,7 @@
 # Data Wrangling Challenge
 This is a script that generates a csv file containing data from the European Union Road Safety Facts and Figures table on https://en.wikipedia.org/wiki/Road_safety_in_Europe
 
-Please note the data facts_and_figures_table.csv file is displayed according to the 'Road Deaths per Million Inhabitants' from highest to lowest.
+Please note the **facts_and_figures_table.csv** data is displayed according to the 'Road Deaths per Million Inhabitants' from highest to lowest.
 
 ## How to Run on your machine
 - Clone this repo
