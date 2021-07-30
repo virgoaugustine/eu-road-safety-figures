@@ -10,3 +10,5 @@ This is a script that generates a csv file containing data from the European Uni
 
 ## Data Package
 A datapackage for the generated csv data can be found in the datapackage folder.
+
+* Please note the data facts_and_figures_table.csv file is displayed according to the 'Road Deaths per Million Inhabitants' from highest to lowest.
