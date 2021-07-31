@@ -38,8 +38,13 @@ def get_facts_table(url):
                 #insert the year column after 'Country' and give it a default value of 2018.
                 facts_table.insert(2, 'Year', '2018')
                 
+                #Because the last row in the dataframe contains the overall total, we need to sort the dataframe without including that last row
+
+                eu_total = facts_table.tail(1) #Save the last row 
                 #Sort the table by 'Road Deaths per Million Inhabitants' column from highest to lowest.
-                facts_table = facts_table.sort_values(by=['Road Deaths per Million Inhabitants'], ascending=False)
+                facts_table = facts_table.iloc[:-1, :].sort_values(by=['Road Deaths per Million Inhabitants'], ascending=False)
+                #insert the last row back into the table
+                facts_table = facts_table.append(eu_total)
                 
                 #Save the table to a csvfile
                 filename = 'facts_and_figures_table.csv'
