@@ -7,12 +7,7 @@
             "name": "facts_and_figures_table",
             "format": "csv",
             "mediatype": "text/csv",
-            "encoding": "windows-1252",
-            "contributors": [{
-                "title": "Augustine Virgo Anankum",
-                "email": "virgoaugustine@gmail.com",
-                "role": "author"
-              }],
+            "encoding": "utf-8",
             "schema": {
                 "fields": [
                     {
