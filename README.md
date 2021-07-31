@@ -3,6 +3,10 @@ This is a script that generates a csv file containing data from the European Uni
 
 Please note the **facts_and_figures_table.csv** data is displayed according to the 'Road Deaths per Million Inhabitants' from highest to lowest.
 
+
+
+
+
 ## How to Run on your machine
 - Clone this repo
 
@@ -12,5 +16,11 @@ Please note the **facts_and_figures_table.csv** data is displayed according to t
 
 ## Data Package
 A datapackage for the generated csv data can be found in the datapackage folder.
+
+## Columns Units
+- Area: thousands of km<sup>2</sup>
+- Population Density: inhabitants per km<sup>2</sup>
+- Vehicle Ownership: Per thousand inhabitants.
+
 
 
